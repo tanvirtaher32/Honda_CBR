@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda CBR</title>
+
+    <!-- Bootstrap link css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/6dacdfb7a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header__section">
+
+        <!-- menu bar -->
+
+        <div class="container d-flex justify-content-end ">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mt-4" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0  font__size">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contract</a>
+                            </li>
+
+                            <button type="button" class="btn login__btn ms-5 ">Log In</button>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- header content -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 pt-5 mt-5">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="mb-3">
+                        Honda CBR 300R
+                    </h1>
+                    <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda
+                        CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to
+                        ride around town and on twisty back roads. The single-cylinder engine offers great fuel economy,
+                        with smooth and friendly torque delivery.</p>
+
+                    <button type="button" class="btn purchase__btn mt-3" data-bs-toggle="modal"
+                        data-bs-target="#purchase">Purchase</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="purchase" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="ModalLabel" style="color: #000">We will store your
+                                        cookies.</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" style="color: #000">
+                                    Don't worry,We will store your cookies to give you a better experience
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 mt-5 position-relative header__background">
+                    <img src="images/header-bike.png" alt="">
+                   
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+    <!-- main section -->
+
+    <main>
+        <!-- featured bikes section -->
+        <section class="container  featured__bikes pt-5 ">
+            <div class="text-center pb-3">
+
+                <h2 class="fs-1">Featured Bikes 2021</h2>
+                <p class="underline">Best bike collection</p>
+
+            </div>
+
+            <div class="bikes mt-5">
+                <div class="row g-3">
+                    <div class="col-lg-4">
+                        <img src="images/feature-bike.jpg" class="img-fluid img1" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/feature-bike.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/feature-bike.jpg" class="img-fluid img3" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!-- latest News -->
+        <section class="latest__news pt-5">
+            <div class="title"></div>
+            <h2 class="fs-1 text-center mt-5">
+                Latest News
+            </h2>
+
+            <div class="cards mt-5 pt-5 container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-lg-4">
+                        <div class="card h-100 ">
+                            <img src="images/bike-1.png" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                                <p class="card-text">Ducati renews the XDiavel range by introducing two new versions for
+                                    2021: the XDiavel Dark and the XDiavel Black Star.XDiavel, the Ducati cruiser that
+                                    combines the best of both worlds, is renewed, still remaining true to its
+                                    philosophy. </p>
+                            </div>
+                            <button type="button" class="btn card__btn ms-3 mt-3 mb-2">Read More</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/bike-2.png" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Motorcycles & Scooters</h5>
+                                <p class="card-text">A scooter or motor scooter is a motorcycle with a step-through
+                                    frame and a platform for the rider's feet. Elements of scooter design were present
+                                    in some of the earliest motorcycles, and scooters have been made since at least
+                                    1914.</p>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger card__btn2 ms-3 mt-3 mb-2">Read
+                                More</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card h-100">
+                            <img src="images/bike-3.png" class="card-img-top img-fluid" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">2021 Honda CBR500R</h5>
+                                <p class="card-text">The Honda CBR500R is one of our most popular streetbikes, and it’s
+                                    easy to see why. It has just about the perfect combination of performance,
+                                    versatility and price. And for 2019, it gets even better.</p>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger card__btn2 ms-3 mt-3 mb-2">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- feedback section -->
+        <section class="feedback pt-5">
+            <h2 class="fs-1 text-center mt-5 mb-5">Happy <span style="color:#e76f51"> Clients says</span> </h2>
+
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-lg-4 ">
+                        <div class="card h-100 text-center ">
+                            <img src="images/user-1.png"
+                                class="card-img-top user__img rounded-circle rounded  mx-auto d-block mt-3 mb-2"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Overall, quality bike. Easy to assemble. Only one small negative:
+                                    on uneven ground (bumps) the shocks compress as designed, but the screws holding the
+                                    front fender dig into the tire (rips and sometimes throws the rider forward from
+                                    sudden stop).</p>
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <h5 class="customer__name">John Smith</h5>
+
+                            </div>
+                            <h6>UI/UX Designer</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card h-100 text-center ">
+                            <img src="images/user-2.png"
+                                class="card-img-top user__img rounded-circle  mx-auto d-block mt-3 mb-2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">This is so cool! Fun for the whole Family. It was bought for my 11
+                                    yr old GrandSon mainly. But for others too! This reminds me of a mini Harley.
+                                    Throttle bracket was damaged on arrival but still worked. Tech support was on it
+                                    right away. </p>
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                                <h5 class="customer__name">Regina Miles</h5>
+
+                            </div>
+                            <h6>Doctor</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card h-100 text-center ">
+                            <img src="images/user-3.jpg"
+                                class="card-img-top user__img rounded-circle mx-auto d-block mt-3 mb-2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Likes: Good looking bike with a lot of style.
+                                    Love the storage compartment in the dummy gas tank. Bike has nice full fenders.
+                                    Front shocks have a nice travel, and handle bars have a vibration free rubber
+                                    mounting system.</p>
+                                <span>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+
+                                <h5 class="customer__name">Melina</h5>
+
+                            </div>
+                            <h6>Banker</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ section -->
+        <section class="faq">
+            <h2 class="fs-1 text-center mt-5 pt-5 mb-5">Frequently Asked <span style="color:#e76f51"> Questions</span>
+            </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="images/faq.png" alt="" class="faq__img mt-5">
+
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div class="accordion mt-5 pt-5" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne" style="font-size:20px">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        What are the most important things I should
+                                        know about riding a bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" style="font-size:16px; color: #7E848C;">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo" style="font-size:20px">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How can I tell if my helmet is old and I need a
+                                        new one?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" style="font-size:16px; color: #7E848C;">
+                                        Check in with your head. “Typically, you know if the helmet took a good hit,
+                                        because a good hit to the helmet is a good hit to the head,” Parks says. “Just
+                                        even the sound of the impact or the way your head felt—like if you hit hard
+                                        enough to see stars—can tell you if the helmet should be replaced.”
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree" style="font-size:20px">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" style="font-size:16px; color: #7E848C;">
+                                        Before going on a long ride, take your bike around the block and make sure it is
+                                        safe to ride. First of all, your tires are going to be deflated, it is normal
+                                        after long periods of time on storage. Inflate them close to the recommended
+                                        level, you can find that in the wall of the tire. Make sure your brakes work.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree" style="font-size:20px">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body" style="font-size:16px; color: #7E848C;">
+                                        Go With the Traffic Flow. Ride on the right in the same direction as other
+                                        vehicles. ...
+                                        Obey All Traffic Laws. A bicycle is a vehicle and you're a driver. ...
+                                        Yield to Traffic When Appropriate.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- news section -->
+
+        <section class="news">
+            <h2 class="fs-1 text-center mt-5 pt-5 mb-5">News</h2>
+
+            <div class="container ">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Ducati XDiavel launched in BS6 avatar at Rs 18 lakh</h5>
+                                <p class="card-text">The 2021 Ducati XDiavel has been launched in India at Rs 18 lakh
+                                    for the Dark variant and Rs 22.60 lakh for the Black Star variant...</p>
+                            </div>
+                            <button type="button" class="btn btn-danger w-50 ms-3 mb-2">View More</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+
+                            <div class="card-body">
+                                <h5 class="card-title">New Royal Enfield Classic 350 to launch on August 27</h5>
+                                <p class="card-text">After all the months of development and delays, and all the test
+                                    mules spotted testing, the 2021 Royal Enfield Classic 350 will launch at 1pm on
+                                    August 27...</p>
+                            </div>
+                            <button type="button" class="btn btn-danger w-50 ms-3 mb-2">View More</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Kawasaki Ninja 650 gets price hike and new colour schemes</h5>
+                                <p class="card-text">The middleweight, fully-faired offering from Kawasaki now costs Rs
+                                    6.61 lakh, ...</p>
+                            </div>
+                            <button type="button" class="btn btn-danger w-50 ms-3 mb-2">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="container">
+            <h2 class="fs-1 text-center mt-5 pt-5 mb-5">Gallery</h2>
+            <div class="images d-lg-flex  justify-content-between flex-wrap">
+                <img src="images/cbr1.jpg" alt="" class="gallery__img pb-3 rounded">
+                <img src="images/cbr2.jpg" alt="" class="gallery__img pb-3 rounded">
+                <img src="images/cbr3.jpg" alt="" class="gallery__img pb-3 rounded">
+                <img src="images/cbr4.jpg" alt="" class="gallery__img pb-3 rounded">
+                <img src="images/cbr5.jpg" alt="" class="gallery__img pb-3 rounded">
+                <img src="images/cbr6.jpg" alt="" class="gallery__img pb-3 rounded">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="pt-5 ">
+                        <span>Download Now</span>
+                        <span class="ps-5">License</span>
+                    </div>
+                    <div >
+                        <span class="">About</span>
+                        <span class="ps-3">Features</span>
+                        <span class="ps-3">Pricing</span>
+                        <span class="ps-3">Careers</span>
+                        <span class="ps-3">Help</span>
+                        <span class="ps-3">Privacy & Policy</span> 
+                    </div>
+                    <div class="  pt-5">
+                        <p >2021 All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+
+
+    <!-- Bootstrap js file -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

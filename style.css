@@ -1,0 +1,120 @@
+/* header section */
+
+.header__section{
+    background-color: #264653;
+    
+    color: #fff;
+    
+}
+.header__background{
+    background-image: url("images/header-background.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.font__size li a{
+    font-size:16px;
+
+}
+.login__btn{
+    background-color: #E76F51;
+    color: #fff;
+    width: 91px;
+    height:44px;
+}
+.purchase__btn{
+    background-color: #E76F51;
+    color: #fff;
+    width: 168px;
+    height:44px;
+}
+
+/* main section */
+
+main{
+    background-color:#E5E5E5;
+}
+.featured__bikes p{
+    color: #E76F51;
+    font-size:14px;
+}
+.underline {
+    text-decoration: none; 
+    position: relative; 
+  }   
+
+ .underline:after {
+     position: absolute;
+     content: '';
+     height: 2px;
+     bottom: -4px; 
+     margin: 0 auto;
+     left: 0;
+     right: 0;
+     width: 6%;
+     background:#E76F51;
+    
+ }
+.bikes img{
+    width:288px;
+    height:243px;
+}
+
+ .img1 ,.img3 {
+    filter:grayscale(100%);
+}
+
+/* latest News */
+
+.bike-img{
+    width:337px;
+    height:256px;
+}
+
+.card__btn{
+    width:160px;
+    height:57px;
+    background-color: #E76F51;
+    color: #fff;
+}
+.card__btn2{
+    width:160px;
+    height:57px;
+    
+    color: #E76F51;
+
+}
+
+/* user feedback */
+.user__img{
+    height:150px;
+    width:150px;
+}
+.customer__name{
+    color: #23A6F0;
+}
+
+/* FAQ section */
+
+span i{
+    color: #E77C40;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.faq__img{
+    width:432px;
+    height:423px;
+}
+
+/* Gallery section */
+.gallery__img{
+    width:360px;
+}
+
+/* footer */
+
+footer {
+    background-color: #0B0D17;
+    height: 280px;
+    color: #fff;
+}
